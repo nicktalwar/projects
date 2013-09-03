@@ -1,1 +1,9 @@
 /* style.css */
+.red {background-color: :#F00;}
+.green {background-color: #0F0;}
+.blue {background-color: #00F;}
+
+
+CSS selector {
+	font-family: 'Arimo', sans-serif;
+}

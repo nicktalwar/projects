@@ -4,39 +4,79 @@
 .blue {background-color: #00F;}
 
 body {
-	background-color: white;
-	background-image:(linear-gradient(blue, #aaaaaa)); 	
+
+	background: #747578;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
 }
 
 CSS selector {
 	font-family: 'Arimo', sans-serif;
 	font-family: 'Nunito', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
-.wrap_mouseover {
+.header {
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	font-size:11pt;
+}
 
-	width:300px;
-	height:300px;
+.header > .col-12 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24pt;
+	color:white;
+}
+
+.header a:link {color:white}      /* unvisited link */
+.header a:visited {color:white}  /* visited link */
+.header a:hover {color:black}  /* mouse over link */
+.header a:active {color:gray}  /* selected link */
+.header a {text-decoration:none;}
+
+.wrap_mouseover {
+	position: relative;
+	width:240px;
+	height:228px;
+
 }
 
 .image-overlay {
-	width: 300px;
-	height: 300px;
+	width: 240px;
+	height: 228px;
 	background-color: black;
 	opacity: 0.8;
 	display: none;
 	position: absolute;
 	top: 0px;
+}
+
+.image-overlay p {
+
+	position: absolute;
+	padding-left: 5px;
+	color: white;
+	font-size: 8pt;
+	color: #EDEDED;
+	bottom:0;
 
 }
 
-.image-overlay a {
+.project_tile {
 
-	
-
+	padding:10px;
 
 }
 
+.row .col-1 {
+
+	max-width: 16px;
+
+}
 /*
 .rollover_img {
 

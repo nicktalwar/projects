@@ -22,14 +22,19 @@ CSS selector {
 
 .header {
 	font-family: 'Raleway', sans-serif;
-	color:white;
 	font-size:11pt;
+	margin: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 }
 
-.header > .col-12 {
+.header > .col-10 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 24pt;
 	color:white;
+	margin: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 }
 
 .header a:link {color:white}      /* unvisited link */
@@ -77,6 +82,8 @@ CSS selector {
 	max-width: 16px;
 
 }
+
+
 /*
 .rollover_img {
 

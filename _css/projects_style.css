@@ -4,4 +4,63 @@ CSS selector {
 	font-family: 'Arimo', sans-serif;
 	font-family: 'Nunito', sans-serif;
 	font-family: 'Raleway', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Quattrocento', serif;
 }
+
+.red {background-color: :#F00;}
+.green {background-color: #0F0;}
+.blue {background-color: #00F;}
+
+body {
+
+	background: #747578;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.header {
+	font-family: 'Raleway', sans-serif;
+	font-size:11pt;
+	margin: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.header > .col-12 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24pt;
+	color:white;
+	margin: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.header a:link {color:white}      /* unvisited link */
+.header a:visited {color:white}  /* visited link */
+.header a:hover {color:black}  /* mouse over link */
+.header a:active {color:gray}  /* selected link */
+.header a {text-decoration:none;}
+
+#title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24pt;
+	color:white;
+}
+
+.text_container {
+	font-family: 'Quattrocento', sans-serif;
+	font-size: 14pt;
+	color:#E8E8E8;
+}
+
+.footer {
+	font-family: 'Lato', sans-serif;
+	font-size: 6pt;
+	color:#E8E8E8;
+}
+

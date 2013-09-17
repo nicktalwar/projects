@@ -52,10 +52,23 @@ img {
 	color:white;
 }
 
+
+.carousel.carousel-fade .item {
+  opacity:0;
+}
+
+.carousel.carousel-fade .active.item {
+    opacity:0;
+}
+
 .text_container {
-	font-family: 'Quattrocento', sans-serif;
-	font-size: 14pt;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
 	color:#E8E8E8;
+}
+
+.text_container p:first-child {
+	font-size: 16pt;
 }
 
 .footer {

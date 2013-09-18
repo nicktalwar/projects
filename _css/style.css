@@ -30,6 +30,14 @@ CSS selector {
 	padding: 0px 0px 0px 0px;
 }
 
+.header .col-12 {
+	padding-left: 0px;
+}
+
+.header p:last-child {
+	margin: 0px 0px 15px;
+}
+
 .header > .col-10 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 30pt;
@@ -44,6 +52,38 @@ CSS selector {
 .header a:hover {color:black}  /* mouse over link */
 .header a:active {color:gray}  /* selected link */
 .header a {text-decoration:none;}
+
+.container {
+
+	padding-left: 0px;
+}
+
+.project_tile {
+
+	width: 240px;
+	height: 228px; 
+	overflow: hidden;
+	padding: 0px;
+	margin:0px;
+}
+
+.project_tile .right {
+
+	padding-left: 0px;
+	margin-left: 0px;
+
+}
+
+.row {
+
+	padding-bottom: 30px;
+	margin: 0px;
+}
+
+.header .row {
+
+	padding: 0px;
+}
 
 .wrap_mouseover {
 	position: relative;
@@ -65,17 +105,11 @@ CSS selector {
 .image-overlay p {
 
 	position: absolute;
-	padding-left: 5px;
+	padding-left: 10px;
 	color: white;
 	font-size: 8pt;
 	color: #EDEDED;
 	bottom:0;
-
-}
-
-.project_tile {
-
-	padding:10px;
 
 }
 

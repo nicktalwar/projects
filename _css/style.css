@@ -31,7 +31,7 @@ CSS selector {
 }
 
 .header .col-12 {
-	padding-left: 0px;
+	padding: 0px;
 }
 
 .header p:last-child {
@@ -62,9 +62,8 @@ CSS selector {
 
 	width: 240px;
 	height: 228px; 
-	overflow: hidden;
 	padding: 0px;
-	margin:0px;
+	margin:15px 0px 15px 0px;
 }
 
 .project_tile .right {
@@ -76,7 +75,7 @@ CSS selector {
 
 .row {
 
-	padding-bottom: 30px;
+
 	margin: 0px;
 }
 

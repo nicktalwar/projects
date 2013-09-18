@@ -47,7 +47,7 @@ img {
 .header a:link {text-decoration:none;}
 
 .text_container a:link {color:#A9A9A9; text-decoration:none;}      /* unvisited link */
-.text_container a:visited {color:black}  /* visited link */
+.text_container a:visited {color:#A9A9A9}  /* visited link */
 .text_container a:hover {color:black}  /* mouse over link */
 .text_container a:active {color:gray}  /* selected link */
 

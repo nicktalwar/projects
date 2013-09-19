@@ -1,0 +1,29 @@
+//Media queries for different typeso screen resolutions and devices.
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	.container .row .project_tile {
+		margin: 15px auto;
+	}	
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.container {
+		padding: 10px;
+	}
+
+	.container .row .project_tile {
+		margin: 15px auto;
+	}
+}
